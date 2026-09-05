@@ -1,0 +1,14 @@
+{
+  "name": "qa-automation-starter",
+  "version": "1.0.0",
+  "description": "Базовый шаблон репозитория для автотестов на Playwright (UI + API)",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
